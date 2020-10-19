@@ -1,0 +1,116 @@
+body {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.main {
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.white {
+    color: #fff;
+    background: #81B3D2;
+}
+
+.lh26{
+    line-height: 26px;
+}
+
+nav li{
+    font-weight: bold;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #000000;
+    list-style-type: none;
+}
+
+a:link{
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+
+a:visited{
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* a:active{
+
+}
+
+a:hover{
+
+} */
+
+.hide{
+    display: none;
+}
+
+.firstblue{
+    width: 400px;
+    height: 256px;
+    left: 40px;
+    top: 780px;
+    background: #81B3D2;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.secondblue{
+    width: 400px;
+    height: 256px;
+    left: 840px;
+    top: 1366px;    
+    background: #81B3D2;
+}
+
+.offer {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.reasons, .reasons2 {
+    list-style-type: none;
+}
+
+.interested {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.selection {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.search {
+    width: 568px;
+    height: 86px;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #766357;
+}
