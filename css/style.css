@@ -1,9 +1,20 @@
+:root{
+    --basic-gray: #333333;
+    --basic-black: #000000;
+    --basic-white: #fff;
+    --basic-blue: #81B3D2;
+    --basic-brown: #766357;
+    --search-background-hover: #604E43;
+    --search-background-active: #503E33;
+    --basic-black-search: rgba(255,255,255,0.3)
+}
+
 body {
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 14px;
     line-height: 21px;
     text-transform: uppercase;
-    color: #333333;
+    color: var(--basic-gray);
 }
 
 .main {
@@ -13,71 +24,49 @@ body {
 .title {
     font-weight: bold;
     font-size: 21px;
-    text-transform: uppercase;
-    color: #000000;
+    color: var(--basic-black);
 }
 
-.white {
-    color: #fff;
-    background: #81B3D2;
-}
-
-.lh26{
+.sedona{
     line-height: 26px;
 }
 
-nav li{
+.nav{
     font-weight: bold;
     font-size: 21px;
-    text-transform: uppercase;
-    color: #000000;
+    color: var(--basic-black);
+}
+
+.nav li{
     list-style-type: none;
 }
 
-a:link{
+.nav-links{
     font-weight: bold;
     font-size: 15px;
     text-transform: uppercase;
-    color: #000000;
+    color: var(--basic-black);
     text-decoration: none;
 }
 
-a:visited{
-    font-weight: bold;
-    font-size: 15px;
-    text-transform: uppercase;
-    color: #000000;
-    text-decoration: none;
-}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
-/* a:active{
-
-}
-
-a:hover{
-
-} */
-
-.hide{
-    display: none;
-}
-
-.firstblue{
+.whiteblue{
     width: 400px;
     height: 256px;
-    left: 40px;
-    top: 780px;
-    background: #81B3D2;
-    border: 1px solid #000000;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.secondblue{
-    width: 400px;
-    height: 256px;
-    left: 840px;
-    top: 1366px;    
-    background: #81B3D2;
+    color: var(--basic-white);
+    background: var(--basic-blue);
 }
 
 .offer {
@@ -94,8 +83,7 @@ a:hover{
     font-size: 30px;
     line-height: 24px;
     text-align: center;
-    text-transform: uppercase;
-    color: #000000;
+    color: var(--basic-black);
 }
 
 .selection {
@@ -110,7 +98,39 @@ a:hover{
     font-size: 21px;
     line-height: 26px;
     text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    background: #766357;
+    color: var(--basic-white);
+    background: var(--basic-brown);
+}
+
+.nav-links:link{
+
+}
+
+.nav-links:visited{
+
+}
+
+.nav-links:hover{
+
+}
+
+.nav-links:active{
+
+}
+
+/* .search:link{
+
+}
+
+.search:visited{
+
+} */
+
+.search:hover{
+    background: var(--search-background-hover);
+}
+
+.search:active{
+    color: var(--basic-black-search);
+    background: var(--search-background-active);
 }

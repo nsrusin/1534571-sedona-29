@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -11,28 +12,28 @@
       <a href="index.html">
         <img src="http://via.placeholder.com/138x70" alt="Логотип Седоны" Width="138" Height="70">
       </a>
-      <nav>
-        <ul class="nav-li">
-          <li><a href="blank.html">Информация</a></li>
-          <li><a href="blank.html">Фото и видео</a></li>
-          <li><a href="blank.html">Карта штата</a></li>
-          <li><a href="hotels.html">Гостиницы</a></li>
+      <nav class="nav">
+        <ul>
+          <li><a href="blank.html" class="nav-links">Информация</a></li>
+          <li><a href="blank.html" class="nav-links">Фото и видео</a></li>
+          <li><a href="blank.html" class="nav-links">Карта штата</a></li>
+          <li><a href="hotels.html" class="nav-links">Гостиницы</a></li>
         </ul>
       </nav>
     </header>
     <main class="main">
       <img src="http://via.placeholder.com/1200x509" Width="1200" Height="509" alt="Главное изображение">
-      <h1 class="hide">Добро пожаловать в Седону!</h1>
+      <h1 class="visually-hidden">Добро пожаловать в Седону!</h1>
       <section>
-        <p class="title lh26">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
-        <h2 class="lh26 offer">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</h2>
+        <p class="title sedona">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+        <h2 class="sedona offer">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</h2>
       </section>
       <ul class="reasons">
         <li>
-          <div class="firstblue">
-            <h2 class="white">Настоящий городок</h2>
-            <p class="white">— №1 —</p>
-            <p class="white">Седона - не аттракцион для туристов, там течёт своя жизнь</p>
+          <div class="whiteblue">
+            <h2>Настоящий городок</h2>
+            <p>— №1 —</p>
+            <p>Седона - не аттракцион для туристов, там течёт своя жизнь</p>
           </div>
           <ul class="reasons2">
             <li>
@@ -50,10 +51,10 @@
           </ul>
         </li>
         <li>
-          <div class="secondblue">
-            <h2 class="white">Там есть мост дьявола</h2>
-            <p class="white">— №2 —</p>
-            <p class="white">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+          <div class="whiteblue">
+            <h2>Там есть мост дьявола</h2>
+            <p>— №2 —</p>
+            <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
           </div>          
         </li>
         <li>
@@ -73,7 +74,7 @@
         </li>
       </ul>
       <section>
-        <h2 class="hide">Планирование поездки</h2>
+        <h2 class="visually-hidden">Планирование поездки</h2>
         <p class="interested">ЗАИНТЕРЕСОВАЛИСЬ?</p>
         <p class="selection">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
         <button type="button" class="search">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
