@@ -4,6 +4,7 @@
     --basic-white: #fff;
     --basic-blue: #81B3D2;
     --basic-brown: #766357;
+    --rating: #F2F2F2;
     --search-background-hover: #604E43;
     --search-background-active: #503E33;
     --basic-black-search: rgba(255,255,255,0.3)
@@ -23,12 +24,9 @@ body {
 
 .title {
     font-weight: bold;
+    line-height: 26px;
     font-size: 21px;
     color: var(--basic-black);
-}
-
-.sedona{
-    line-height: 26px;
 }
 
 .nav{
@@ -43,7 +41,7 @@ body {
 
 .nav-links{
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
     text-transform: uppercase;
     color: var(--basic-black);
     text-decoration: none;
@@ -71,6 +69,7 @@ body {
 
 .offer {
     font-size: 14px;
+    line-height: 26px;
     font-weight: 400;
 }
 
@@ -102,30 +101,6 @@ body {
     background: var(--basic-brown);
 }
 
-.nav-links:link{
-
-}
-
-.nav-links:visited{
-
-}
-
-.nav-links:hover{
-
-}
-
-.nav-links:active{
-
-}
-
-/* .search:link{
-
-}
-
-.search:visited{
-
-} */
-
 .search:hover{
     background: var(--search-background-hover);
 }
@@ -133,4 +108,66 @@ body {
 .search:active{
     color: var(--basic-black-search);
     background: var(--search-background-active);
+}
+
+.visitsedona, .tel {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    color: var(--basic-black);
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: var(--basic-blue);
+}
+
+.nav a:active{
+    color: var(--basic-black);
+    opacity: 0.3;
+}
+
+.found{
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    color: var(--basic-black);
+}
+
+.sorting{
+    font-size: 12px;
+    line-height: 18px;
+    list-style-type: none;
+}
+
+.sorting a{
+    color: var(--basic-black);
+}
+
+.more{
+    width: 110px;
+    height: 27px;
+    color: var(--basic-white);
+    background-color: var(--basic-blue);
+    text-decoration: none;
+}
+
+.book{
+    width: 142px;
+    height: 27px;
+    color: var(--basic-white);
+    background-color: var(--basic-brown);
+    text-decoration: none;
+}
+
+.rating{
+    background-color: var(--rating);
+    width: 110px;
+    height: 27px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.result{
+    list-style-type: none;
 }
